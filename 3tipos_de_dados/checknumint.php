@@ -14,5 +14,4 @@ if(is_int($a)) {
     echo "É um inteiro <br>";
 };
 
-
 ?>
