@@ -42,22 +42,25 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //ESCOPO STATIC
 
+// function teste() {
+//     static $num = 5;
+//     $num++;
+//     echo $num;
+//     echo "<br>";
+// }
 
+// teste();
+// teste();
 
-
-
-
-
-
+// $num = 8;
+// echo $num;
 
 //ESCOPO DOS PARAMETROS
 
+function soma($a , $b) {
+    return $a + $b;
+}
 
-
-
-
-
-
-
+echo soma(5 , 5);
 
 ?>
