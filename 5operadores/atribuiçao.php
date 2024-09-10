@@ -26,6 +26,11 @@ $e %= 5; // $e = $e % 5;
 
 echo $e . "<br>";
 
+//utilizando com variáveis
+
+$d *= $b; // $d (15) = $d (15) * $b (5)
+echo $d . "<br>";
+
 
  
 
