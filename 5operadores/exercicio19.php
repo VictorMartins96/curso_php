@@ -2,7 +2,7 @@
 
 $a = (int) "testando"; 
 $b = (int) 12.9;
-$c = (int) true;
+$c = (int) false;
 $d = (int) [1 , 2 , 3];
 
 
