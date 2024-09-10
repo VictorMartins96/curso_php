@@ -26,5 +26,22 @@ if($a > $b) {
     echo $msg;
 }
 
+// exercicio
+
+$idade1 = 16;
+$idade2 = 18;
+$idade3 = 20;
+$maioridade = 18;
+
+$msg = "Você é maior de idade! <hr>";
+$msg2 = "Você é menor de idade! <hr>";
+ 
+if($idade1 >= $maioridade) {
+    echo $msg;
+} else {
+    echo $msg2;
+}
+
+
 
 ?>
