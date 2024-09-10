@@ -15,6 +15,24 @@ if(is_numeric($num2)) {
     }
 }
 
+echo '<hr>';
+
+if(is_numeric($str2)) {
+    
+    $res = $num2 * 2;
+    echo "Este dado é um numero, e foi multiplicado por 2 , o resultado é $res <hr>";
+
+    if($res > 100) {
+        echo "Este numero é maior que 100 <br>";
+    } else {
+        echo "Este numero é menor que 100 <br>";
+    }
+} else {
+
+    echo "Este dado não é numérico <br>";
+
+}
+
 
 
 
