@@ -1,23 +1,36 @@
 <?php
 
-$x = 0;
+// $x = 0;
 
-while ($x <= 10) {
+// while ($x <= 10) {
 
-    echo $x . "<br>";
+//     echo $x . "<br>";
 
-    if($x == 5) {
-        echo "Terminando o loop <br>";
-        break;
-    }
+//     if($x == 5) {
+//         echo "Terminando o loop <br>";
+//         break;
+//     }
 
-    $x++;
+//     $x++;
 
-}
+// }
 
 //exercicios
 
+$x = 4;
 
+while($x < 30) {
+
+    echo "Contando $x <br>";
+    
+    if($x === 24) {    
+        echo "Pausa no loop <br>";
+        break;    
+    }
+    
+    $x += 2;
+
+}
 
 
 
