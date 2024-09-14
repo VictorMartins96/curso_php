@@ -31,14 +31,13 @@
 
 $arr = [];
 
-for($x = 0 ; $x <= 10 ; $x++) {
-    
-    array_push($arr , $x . "<br>");
-    print_r($arr);
+for($x = 10 ; $x <= 20 ; $x++) {
 
+    array_push($arr , $x . "<br>");
+    
 }
 
-
+print_r($arr);
 
 
 
