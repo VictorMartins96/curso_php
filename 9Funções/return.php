@@ -1,26 +1,43 @@
 <?php
 
-function soma($n1 , $n2) {
+function aoQuadrado($num) {
 
-    return $n1 + $n2;
+    $res = $num ** 2;
+
+    return $res;
 
 }
 
-echo soma(4 , 4) . "<br>";
-
-$x = soma(2 , 4);
+$x = aoQuadrado(5);
 
 echo $x . "<br>";
 
-$y = soma($x , 19);
+$n1 = aoQuadrado($x);
 
-echo $y;
+echo $n1;
 
-function teste() {
-    echo "Testando";
-}
 
-$z = teste();
+// function soma($n1 , $n2) {
+
+//     return $n1 + $n2;
+
+// }
+
+// echo soma(4 , 4) . "<br>";
+
+// $x = soma(2 , 4);
+
+// echo $x . "<br>";
+
+// $y = soma($x , 19);
+
+// echo $y;
+
+// function teste() {
+//     echo "Testando";
+// }
+
+// $z = teste();
 
 
 ?>
