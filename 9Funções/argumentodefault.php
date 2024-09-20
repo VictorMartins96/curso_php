@@ -2,8 +2,13 @@
 
 //Exercicio
 
-function defineCorCarro()
+function defineCorCarro($cor = "Preto") {
 
+    return "A cor do carro é: $cor <br>";
+
+}
+echo defineCorCarro();
+echo defineCorCarro("Vermelho");
 
 
 
