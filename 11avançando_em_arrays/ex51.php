@@ -1,25 +1,10 @@
 <?php
 
-$arr = [
-    'Player1' => 155,
-    'Player2' => 266,
-    'Player3' => 65,
-    'Player4' => 845,
-    'Player5' => 332,
-    'Player6' => 13
-];
+$arr = [5 , 2 , 44 , 62 , 59 , 51 , 3];
 
-arsort($arr); 
+function ordenarNumeros($arr) {
+    asort($arr);
+    print_r($arr);    
+}
 
-?>
-
-<h1>Ranking</h1>
-
-<ol>
-    <?php foreach($arr as $player => $value): ?>
-
-    <li><?php echo "$player: $value pontos"; ?></li>
-    
-    <?php endforeach; ?>
-
-</ol>
+ordenarNumeros($arr);
